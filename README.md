@@ -5,21 +5,39 @@
 # Sensor de Luminosidade, Umidade e Temperatura: Monitoramento Essencial para Vinícolas
 Este projeto foi concebido para a Vinheria Agnello, visando monitorar as condições de armazenamento dos vinhos. Nossa meta é assegurar que a temperatura, umidade e luminosidade de determinado ambiente estejam ideais para preservar a qualidade dos produtos. Em caso de qualquer discrepância, o proprietário será prontamente notificado.
 
-# Funcionalidades Principais
+## Visão Geral
+O Sensor de Monitoramento de Condições de Armazenamento é uma solução integrada desenvolvida para garantir a excelência no armazenamento dos vinhos produzidos pela Vinheria Agnello. Por meio de uma abordagem contínua e precisa, o sensor monitora a temperatura, umidade e luminosidade do ambiente de armazenamento, elementos críticos que influenciam diretamente na integridade e sabor dos vinhos.
+
+## Funcionalidades Principais
 
 - `Funcionalidade 1`: Monitoramento de umidade, luminosidade e temperatura
 - `Funcionalidade 2`: Indicação Visual com LEDs
 - `Funcionalidade 3`: Alerta sonoro acionado caso a luminosidade esteja fora do padrão necessário.
 - `Funcionalidade 5`: Valores registrados e calculados a cada 10 ciclos para possibilitar a detecção de discrepâncias
 - `Funcionalidade 4`: Mensagem no LCD indicando caso algum dos parâmetros esteja errado.
-  ![mensagem exemplo](https://github.com/Nicolejelinski/CP2-edge/assets/143125546/b35036c4-d496-467d-8f5d-c26d2f78af0c) 
 
 
 
-# Limites Estipulados
+## Limites Estipulados
 Os limites estipulados podem variar de acordo com as especificidades do ambiente de armazenamento de vinhos. No código fornecido, os limites são definidos, mas podem ser ajustados conforme necessário.
 
-# Componentes necessários
+## Display LCD e Mensagens
+
+O display LCD é utilizado neste projeto para fornecer informações visuais sobre as condições monitoradas e exibir mensagens de alerta. Aqui está como as informações são apresentadas no display:
+
+- **Temperatura:** A temperatura atual é exibida no formato "T: XX°C", onde XX é o valor da temperatura em graus Celsius.
+
+- **Umidade:** A umidade relativa do ar é exibida no formato "H: XX%", onde XX é o valor da umidade em percentagem.
+
+- **Luminosidade:** A intensidade da luz ambiente é exibida no formato "L: XX%", onde XX é o valor da luminosidade em percentagem.
+
+Além disso, o display também pode mostrar mensagens de alerta em caso de condições fora do esperado, como temperaturas extremas, umidade inadequada ou luminosidade excessiva. Para garantir uma boa legibilidade das mensagens, o display é atualizado a cada ciclo de leitura dos sensores, proporcionando uma monitoração contínua das condições ambientais.
+
+*exemplo*
+ ![mensagem exemplo](https://github.com/Nicolejelinski/CP2-edge/assets/143125546/b35036c4-d496-467d-8f5d-c26d2f78af0c) 
+
+
+## Componentes necessários
 | Componente    | Quantidade    |
 | ------------- | ------------- |
 | Arduino Uno R3  | 1 |
@@ -34,21 +52,21 @@ Os limites estipulados podem variar de acordo com as especificidades do ambiente
 | Potenciômetro  | 1 |
 | Display LCD | 1 |
 
-# Conexão dos Componentes
+## Conexão dos Componentes
 Conecte os componentes conforme o esquema de conexão fornecido no código-fonte.
 
-# Utilização
+## Utilização
 Após a configuração e conexão dos componentes, abra o arquivo do código-fonte em um ambiente de desenvolvimento integrado para Arduino (como Arduino Uno), inicie o monitoramento executando o código no Arduino.
 
-# Referências
+## Referências
 
 - [Documentação oficial do Arduino](https://www.arduino.cc/)
 - [Tutorial sobre DHT11 no Adafruit](https://learn.adafruit.com/dht)
 - [Tutorial sobre o uso de LCD com Arduino no Arduino Project Hub](https://create.arduino.cc/projecthub/NickNiebles/how-to-connect-an-lcd-display-to-an-arduino-in-6-seconds-62eb2e)
 
 
-# Autores
-Projeto desenvolvido para a matéria de Edge Computing por: 
+## Autores
+Projeto desenvolvido para a matéria de Edge Computing do Professor Fabio Cabrini, por: 
 Felipe Genistretti Rodrigues;
 Nicolle Pellegrino Jelinski;
 Nicolas Aquino Borges;
