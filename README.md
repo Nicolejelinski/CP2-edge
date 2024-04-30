@@ -40,8 +40,15 @@ Conecte os componentes conforme o esquema de conexão fornecido no código-fonte
 # Utilização
 Após a configuração e conexão dos componentes, abra o arquivo do código-fonte em um ambiente de desenvolvimento integrado para Arduino (como Arduino Uno), inicie o monitoramento executando o código no Arduino.
 
+# Referências
+
+- [Documentação oficial do Arduino](https://www.arduino.cc/)
+- [Tutorial sobre DHT11 no Adafruit](https://learn.adafruit.com/dht)
+- [Tutorial sobre o uso de LCD com Arduino no Arduino Project Hub](https://create.arduino.cc/projecthub/NickNiebles/how-to-connect-an-lcd-display-to-an-arduino-in-6-seconds-62eb2e)
+
+
 # Autores
-Projeto desenvolvido para a matéria de Edge Computing, por: 
+Projeto desenvolvido para a matéria de Edge Computing por: 
 Felipe Genistretti Rodrigues;
 Nicolle Pellegrino Jelinski;
 Nicolas Aquino Borges;
