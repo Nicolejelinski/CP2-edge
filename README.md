@@ -1,6 +1,3 @@
-![logo png (2)](https://github.com/Nicolejelinski/CP2-edge/assets/143125546/baf46fa5-34cf-469c-b393-55838eb5bacb) 
-
-
 
 # Sensor de Luminosidade, Umidade e Temperatura: Monitoramento Essencial para Vinícolas
 Este projeto foi concebido para a Vinheria Agnello, visando monitorar as condições de armazenamento dos vinhos. Nossa meta é assegurar que a temperatura, umidade e luminosidade de determinado ambiente estejam ideais para preservar a qualidade dos produtos. Em caso de qualquer discrepância, o proprietário será prontamente notificado.
